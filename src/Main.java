@@ -51,6 +51,7 @@ public class Main {
             if (month % 6 == 0) {
                 System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
             }
+        }
             System.out.println("Задача 6");
             sum = amount;
             month = 0;
@@ -61,6 +62,7 @@ public class Main {
                 if (month % 6 == 0) {
                     System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
                 }
+            }
                 System.out.println("Задача 7");
                 int firstFriday = 3;
                 for (int day = firstFriday; day <= 31; day+= 7) {
@@ -78,5 +80,4 @@ public class Main {
                 }
             }
         }
-    }
-}
+
